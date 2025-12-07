@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply min-h-screen bg-gradient-to-br from-desert via-amber-200 to-sky-200 font-body text-slate-900 antialiased;
+}
+
+.sun-glow {
+  box-shadow: 0 0 120px rgba(255, 161, 0, 0.35);
+}
